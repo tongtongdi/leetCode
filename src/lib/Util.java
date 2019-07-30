@@ -21,4 +21,10 @@ public class Util {
         }
         return head;
     }
+    public static void listPrint(ListNode listNode) {
+        while (listNode!=null){
+            System.out.print(listNode.val+",");
+            listNode = listNode.next;
+        }
+    }
 }
